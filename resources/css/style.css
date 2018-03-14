@@ -7,8 +7,10 @@ html {
 }
 
 div {
-  border: 1px solid black;
+  border: 1px solid white;
 }
+
+/* Header Rules */
 
 header {
   display: flex;
@@ -22,17 +24,17 @@ header {
   height: 69px;
 }
 
-header img {
+.logo img {
   padding-left: 10px;
   height: 50px;
 }
 
 nav {
   padding-right: 10px;
+  color: white;
+  padding-right: 20px;
 }
 
-nav a{
-  text-decoration: underline;
-  color: white;
-  padding-right: 10px;
+nav span {
+  text-decoration: underline;s
 }
