@@ -52,15 +52,16 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .mission {
   background-image: url("../images/img-mission-background.jpg");
   display: flex;
-  width: 100%;
+  width: 1200px;
   height: 700px;
   justify-content: center;
-  flex-wrap: wrap;
+  margin: auto;
 
 }
 
@@ -72,10 +73,60 @@ nav span {
 }
 
 .month {
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.onsale {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item span {
+  display: block;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+}
+
+.locations {
+  background-image: url("../images/img-locations-background.jpg");
+  margin: auto;
   padding-top: 70px;
-  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+}
 
+.locations h2 {
+  margin: 15px;
+}
 
+.stores {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 50px 0px 50px;
+}
+
+.store {
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+}
+
+/* Footer Rules */
+
+footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
 }
