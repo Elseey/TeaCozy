@@ -6,12 +6,15 @@ html {
   opacity: 0.9;
 }
 
-div {
-  border: 1px solid white;
-}
-
 a {
   color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
 }
 
 /* Header Rules */
@@ -27,6 +30,7 @@ header {
   width: 100%;
   height: 69px;
   background-color: black;
+  top: 0px;
 }
 
 .logo img {
@@ -47,7 +51,7 @@ nav span {
 /* Body Rules */
 
 .body {
-  padding-top: 69px;
+
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -76,6 +80,7 @@ nav span {
   width: 1000px;
   margin: auto;
   padding-top: 70px;
+  height: 700px;
 }
 
 .onsale {
@@ -125,8 +130,15 @@ nav span {
 
 footer {
   height: 200px;
+  margin: 0 auto;
+}
+
+.contact {
+  text-align: center;
+  font-weight: bold;
 }
 
 .copyright {
   text-align: left;
+  padding-left: 20px;
 }
